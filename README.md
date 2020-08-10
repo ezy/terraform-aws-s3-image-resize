@@ -11,7 +11,7 @@ Image resize tool based on AWS Lambda.
 ### Preconditions
 
 1. Generate Access key and Access token for your AWS User
-2. Setup arn:: layers for (graphicsmagick)[https://github.com/rpidanny/gm-lambda-layer] and (image-magick)[https://serverlessrepo.aws.amazon.com/applications/arn:aws:serverlessrepo:us-east-1:145266761615:applications~image-magick-lambda-layer]
+2. Setup arn:: layers for [graphicsmagick](https://github.com/rpidanny/gm-lambda-layer) and [image-magick](https://serverlessrepo.aws.amazon.com/applications/arn:aws:serverlessrepo:us-east-1:145266761615:applications~image-magick-lambda-layer)
 3. Install `terraform`
 
 ### Include it as a module from github
