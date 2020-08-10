@@ -1,0 +1,32 @@
+{
+  "name": "minimal-request-promise",
+  "version": "1.5.0",
+  "description": "A+ Promise interface to Node.js HTTPS request, with no dependencies",
+  "main": "index.js",
+  "keywords": [
+    "promise",
+    "http",
+    "https",
+    "request",
+    "post",
+    "rest"
+  ],
+  "scripts": {
+    "test": "node spec/support/jasmine-runner.js"
+  },
+  "files": [
+    "index.js"
+  ],
+  "homepage": "https://github.com/gojko/minimal-request-promise",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gojko/minimal-request-promise"
+  },
+  "author": "Gojko Adzic <gojko@gojko.com> http://gojko.net",
+  "license": "MIT",
+  "devDependencies": {
+    "fake-http-request": "^1.3.0",
+    "jasmine": "^2.4.1",
+    "jasmine-spec-reporter": "^2.4.0"
+  }
+}

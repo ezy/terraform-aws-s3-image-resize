@@ -1,0 +1,23 @@
+{
+  "bucket": "website-test-moskvychev-photo-tf",
+  "reduce": {
+    "directory": "pics/gallery_16-9",
+    "suffix": "_r",
+    "quality": "96"
+  },
+  "resizes": [
+    {
+      "size": "1500",
+      "directory": "pics/gallery_16-9",
+      "suffix": "_lg"
+    }, {
+      "size": "1200",
+      "directory": "pics/gallery_16-9",
+      "suffix": "_md"
+    }, {
+      "size": "640",
+      "directory": "pics/gallery_16-9",
+      "suffix": "_sm"
+    }
+  ]
+}
