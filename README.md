@@ -6,10 +6,6 @@ Image resize tool based on AWS Lambda.
 - Detects when image is uploaded to S3 and resize it according to settings.
 - Can be one click deployed and scaled with terraform
 
-### Credits
-
-Originally forked from https://github.com/maxmode/image-autoresize-terraform
-
 ## Usage
 
 ### Preconditions
@@ -207,6 +203,5 @@ for every resizer module.
 
 ## Credits
 
-Based on:
-
-- https://github.com/ysugimoto/aws-lambda-image
+- Forked from: Originally forked from https://github.com/maxmode/image-autoresize-terraform
+- Originally Based on: https://github.com/ysugimoto/aws-lambda-image
