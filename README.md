@@ -203,5 +203,5 @@ for every resizer module.
 
 ## Credits
 
-- Forked from: Originally forked from https://github.com/maxmode/image-autoresize-terraform
+- Originally forked from https://github.com/maxmode/image-autoresize-terraform
 - Originally Based on: https://github.com/ysugimoto/aws-lambda-image
