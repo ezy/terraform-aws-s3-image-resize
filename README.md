@@ -31,7 +31,7 @@ provider "archive" {}
 provider "local" {}
 
 module "images_gallery" {
-  source = "github.com/ezy/image-autoresize-terraform?ref=master"
+  source = "github.com/ezy/terraform-aws-s3-image-resize?ref=master"
   image_magick_layers = [
     "arn:aws:lambda:us-west-2:XXXXXX:layer:graphicsmagick:2",
     "arn:aws:lambda:us-west-2:XXXXXX:layer:image-magick:1"
