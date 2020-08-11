@@ -36,7 +36,7 @@ module "images_gallery" {
     "arn:aws:lambda:us-west-2:XXXXXX:layer:graphicsmagick:2",
     "arn:aws:lambda:us-west-2:XXXXXX:layer:image-magick:1"
   ]
-  search_bucket = "staging.pinn.app"
+  search_bucket = "your_bucket_name"
 
   config = <<EOF
 {
